@@ -14,7 +14,7 @@ public class TicTacToe {
 
         while (true) {
             printBoard();
-            System.out.println("Player " + currentPlayer + ", enter your move (row[1-3] and column[1-3]): ");
+            System.out.println("Player " + currentPlayer + ",enter your move (row[1-3] and column[1-3]): ");
             int row = scanner.nextInt() - 1;
             int col = scanner.nextInt() - 1;
 
